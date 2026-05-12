@@ -24,14 +24,15 @@ git clone https://github.com/Mokey-Mokey-Adrift/Hexlet-quiz.git
 ### Способ 3: Скачать ZIP
 Нажмите зелёную кнопку Code → Download ZIP на странице репозитория и распакуйте архив.
 
-Запуск
+## Запуск
 
 Откройте файл index.html в браузере.
 Нажмите «Загрузить вопросы» и выберите подготовленный JSON-файл с вопросами.
 Отвечайте на вопросы, получайте очки.
 При желании добавьте новый вопрос через форму.
-Формат JSON-файла
 
+Формат JSON-файла
+```json
 [
   {
     "question": "Текст вопроса",
@@ -39,15 +40,9 @@ git clone https://github.com/Mokey-Mokey-Adrift/Hexlet-quiz.git
     "correctAnswer": 0
   }
 ]
-Структура проекта
+```
 
-.
-├── index.html      # Главная страница
-├── style.css       # Стили
-├── app.js          # Логика приложения
-├── questions.json  # Демо-вопросы (опционально)
-└── README.md       # Этот файл
-Технологии
+##Технологии
 HTML5
 CSS3
 JavaScript (ES6+)
