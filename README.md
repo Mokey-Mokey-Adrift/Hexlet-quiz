@@ -42,7 +42,7 @@ git clone https://github.com/Mokey-Mokey-Adrift/Hexlet-quiz.git
 ]
 ```
 
-##Технологии
+## Технологии
 HTML5
 CSS3
 JavaScript (ES6+)
