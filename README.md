@@ -11,10 +11,15 @@
 ## Установка и запуск
 
 ### Способ 1: Клонирование через git alias (рекомендуется)
+Сначала настройте алиас (выполните один раз):
+
+```bash
+git config --global alias.quiz '!f() { git clone https://github.com/Mokey-Mokey-Adrift/Hexlet-quiz.git "$@"; }; f'
+
 Если вы настроили алиас:
 ```bash
 git quiz [имя_папки]
-
+Например:
 git quiz my-quiz
 ```
 ### Способ 2: Обычное клонирование
