@@ -26,7 +26,7 @@ git quiz my-quiz
 ```bash
 git clone https://github.com/Mokey-Mokey-Adrift/Hexlet-quiz.git
 ```
-## Пример записи терминала:
+### Пример записи терминала:
 https://asciinema.org/a/D8DuhvyR20yzoFQv
 
 ### Способ 3: Скачать ZIP
