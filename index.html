@@ -10,14 +10,12 @@
     <div class="container">
         <h1>Викторина с вопросами из файла</h1>
         
-<!-- Панель загрузки викторин -->
         <div class="file-controls">
             <label for="fileInput" class="btn"> Загрузить вопросы (JSON/TXT)</label>
             <input type="file" id="fileInput" accept=".json, .txt" style="display: none;">
             <span id="fileName">Файл не выбран</span>
         </div>
 
-<!-- Основной блок викторины -->
         <div class="quiz-area" id="quizArea" style="display: none;">
             <div class="header-info">
                 <span id="questionCounter">Вопрос 1 / X</span>
@@ -30,10 +28,8 @@
             <button class="next-btn" id="nextBtn" disabled>Следующий вопрос</button>
         </div>
 
-<!-- Кнопка показать форму добавления -->
         <button class="toggle-form-btn" id="toggleFormBtn">Добавить новый вопрос</button>
 
-<!-- Добавление вопросов -->
         <div class="add-form" id="addForm" style="display: none;">
             <h3>Новый вопрос</h3>
             <input type="text" id="newQuestion" placeholder="Текст вопроса" class="input-field">
@@ -52,7 +48,6 @@
             <p id="formError" class="error-message"></p>
         </div>
 
-<!-- Результаты -->
         <div class="result-area" id="resultArea" style="display: none;">
             <h2>Викторина завершена!</h2>
             <p id="finalScore"></p>
